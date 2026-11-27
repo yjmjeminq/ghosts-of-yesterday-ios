@@ -30,7 +30,7 @@ public static class BuildGame
         PlayerSettings.SetScriptingBackend(NamedBuildTarget.iOS, ScriptingImplementation.IL2CPP);
         PlayerSettings.iOS.sdkVersion = iOSSdkVersion.DeviceSDK;
         PlayerSettings.iOS.appleEnableAutomaticSigning = false;
-        PlayerSettings.iOS.buildNumber = "1";
+        PlayerSettings.iOS.buildNumber = "2";
         var output = Environment.GetEnvironmentVariable("GHOSTS_IOS_XCODE_PATH");
         if (string.IsNullOrWhiteSpace(output))
             output = "Builds/iOS/Xcode";
@@ -44,7 +44,7 @@ public static class BuildGame
         BackgroundChecks.Run();
         PlayerSettings.companyName = "GhostsNovel";
         PlayerSettings.productName = "Ghosts of Yesterday";
-        PlayerSettings.bundleVersion = "1.0.1";
+        PlayerSettings.bundleVersion = "1.0.2";
         PlayerSettings.defaultInterfaceOrientation = UIOrientation.LandscapeLeft;
         PlayerSettings.defaultScreenWidth = 1280;
         PlayerSettings.defaultScreenHeight = 720;

@@ -126,10 +126,18 @@ namespace Ghosts
             Fill(new Rect(78, 697, 1284, 1), new Color(1, 1, 1, .26f));
             if (Button(new Rect(79, 711, 108, 47), "기록")) Open(Panel.Log);
             if (Button(new Rect(196, 711, 130, 47), auto ? "자동 켜짐" : "자동", true, auto)) { auto = !auto; skip = false; }
-            if (Button(new Rect(335, 711, 130, 47), skip ? "스킵 켜짐" : "스킵", !recall, skip)) ToggleSkip();
+            var skipButton = new Rect(335, 711, 130, 47);
+            if (Button(skipButton, skip ? "스킵 켜짐" : "스킵", !recall, skip)) ToggleSkip();
             if (Button(new Rect(474, 711, 145, 47), "대사창 숨김")) ToggleHud();
             if (recall) Label(new Rect(637, 711, 120, 47), "다시 읽기", 16, Mint);
             if (Button(new Rect(1160, 711, 202, 47), shown >= beat.Line.text.Length ? "다음    ▸" : "대사 표시", true, true)) Advance();
+
+            // Give the visible controls first chance to consume the press and release.
+            var wasEnabled = GUI.enabled;
+            GUI.enabled = wasEnabled && page == Page.Story && panel == Panel.None && !hudHidden &&
+                (!recall || !skipButton.Contains(Event.current.mousePosition));
+            if (GUI.Button(new Rect(0, 0, W, H), GUIContent.none, GUIStyle.none)) Advance();
+            GUI.enabled = wasEnabled;
         }
 
         void DrawEnd()
