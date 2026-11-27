@@ -15,11 +15,14 @@ jobs:
   package:
     runs-on: macos-15
     timeout-minutes: 45
-    env:
-      EXPORT_DIR: ${{ runner.temp }}/ghosts-xcode
-      ARCHIVE: ${{ runner.temp }}/GhostsOfYesterday.xcarchive
-      IPA: ${{ runner.temp }}/GhostsOfYesterday-unsigned.ipa
     steps:
+      - name: Set output paths
+        run: |
+          {
+            printf 'EXPORT_DIR=%s/ghosts-xcode\n' "$RUNNER_TEMP"
+            printf 'ARCHIVE=%s/GhostsOfYesterday.xcarchive\n' "$RUNNER_TEMP"
+            printf 'IPA=%s/GhostsOfYesterday-unsigned.ipa\n' "$RUNNER_TEMP"
+          } >> "$GITHUB_ENV"
       - name: Download the Unity export
         env:
           GH_TOKEN: ${{ github.token }}
