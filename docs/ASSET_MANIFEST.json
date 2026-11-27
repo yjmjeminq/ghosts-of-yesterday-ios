@@ -1,0 +1,848 @@
+{
+  "version": 2,
+  "art": [
+    {
+      "id": "balcony",
+      "title": "브루클린 베란다",
+      "file": "Assets/Game/Resources/Art/balcony.jpg",
+      "usage": [
+        "title",
+        "ep001-window",
+        "ep002-fall",
+        "ep002-distance",
+        "ep002-dry",
+        "ep002-quiet",
+        "ep002-departure",
+        "ep002-landing",
+        "ep005-pizza",
+        "ep005-settle",
+        "ep005-slice",
+        "ep005-parting",
+        "ep009-return_route",
+        "ep012-night",
+        "ep012-rain_talk",
+        "ep012-leave_clear",
+        "ep012-stairs",
+        "ep015-clear_space",
+        "ep015-return",
+        "ep015-support",
+        "ep015-name",
+        "ep015-what_he_saw",
+        "ep015-privacy",
+        "ep015-under_same_roof",
+        "ep015-finish",
+        "ep019-quiet",
+        "ep023-balcony",
+        "ep023-two_hooks",
+        "ep026-gift",
+        "ep029-break",
+        "ep040-home",
+        "ep042-side_by_side",
+        "ep042-plan",
+        "ep049-two_pots",
+        "ep049-key",
+        "ep050-knock"
+      ],
+      "prompt": "Wide Korean narrative webtoon establishing panel, a rainy Brooklyn fire escape balcony with amber apartment light, navy and plum city shadows, ceramic mug and sealed first-aid kit, empty environment, no text.",
+      "source": "OpenAI built-in ImageGen",
+      "licenseContext": "Original illustration for the private fan project",
+      "review": "Generated illustration inspected; Unity Game View review pending",
+      "resolution": [
+        1600,
+        900
+      ]
+    },
+    {
+      "id": "past",
+      "title": "화물 통로",
+      "file": "Assets/Game/Resources/Art/past.jpg",
+      "usage": [
+        "ep001-route",
+        "ep001-delivery",
+        "ep001-handoff",
+        "ep001-return_key",
+        "ep028-sealed_lot",
+        "ep028-refusal",
+        "ep029-borrowed_light",
+        "ep037-jobs"
+      ],
+      "prompt": "An adult black-haired Korean man in silhouette within a wet New York service corridor, sealed tan document envelope, violet reflections, and subdued yellow light, in controlled Korean webtoon ink.",
+      "source": "OpenAI built-in ImageGen",
+      "licenseContext": "Original illustration for the private fan project",
+      "review": "Generated illustration inspected; Unity Game View review pending",
+      "resolution": [
+        1600,
+        900
+      ]
+    },
+    {
+      "id": "aftermath",
+      "title": "빨간 벽돌집",
+      "file": "Assets/Game/Resources/Art/aftermath.jpg",
+      "usage": [
+        "ep001-aftermath",
+        "ep035-address",
+        "ep048-shelter"
+      ],
+      "prompt": "The elderly neighbor and a small child in an oversized dark puffer wait on the bench facing the closed red-brick doorway after rain.",
+      "source": "OpenAI built-in ImageGen",
+      "licenseContext": "Original illustration for the private fan project",
+      "review": "Artwork visually checked after generation and 1600x900 JPEG import",
+      "resolution": [
+        1600,
+        900
+      ],
+      "revision": 2
+    },
+    {
+      "id": "home",
+      "title": "아파트 부엌",
+      "file": "Assets/Game/Resources/Art/home.jpg",
+      "usage": [
+        "ep001-morning",
+        "ep001-receipt",
+        "ep007-print",
+        "ep010-unsent_weekend",
+        "ep019-drying",
+        "ep019-back_of_frame",
+        "ep019-drawer",
+        "ep020-paper_bag",
+        "ep020-start",
+        "ep024-worktop",
+        "ep024-cook",
+        "ep027-shoeprints",
+        "ep027-envelope",
+        "ep029-front_lock",
+        "ep029-gone_steps",
+        "ep030-evidence",
+        "ep031-door",
+        "ep031-hand_and_map",
+        "ep031-plan",
+        "ep042-breakfast_floor",
+        "ep042-hands",
+        "ep042-first_authorities",
+        "ep042-share",
+        "ep043-gear",
+        "ep048-before_surrender",
+        "ep048-paper",
+        "ep049-keys_from_owner",
+        "ep049-lease"
+      ],
+      "prompt": "A black-haired Korean college student in a charcoal sweatshirt measuring coffee in a small Brooklyn kitchen, basil and folded newspaper, cream dawn light and blue-gray shades, full-bleed Korean webtoon illustration.",
+      "source": "OpenAI built-in ImageGen",
+      "licenseContext": "Original illustration for the private fan project",
+      "review": "Generated illustration inspected; Unity Game View review pending",
+      "resolution": [
+        1600,
+        900
+      ]
+    },
+    {
+      "id": "bandage",
+      "title": "거즈를 받는 오른손",
+      "file": "Assets/Game/Resources/Art/bandage.jpg",
+      "usage": [
+        "ep002-bandage"
+      ],
+      "prompt": "The helper offers half-opened gauze from frame left. The opaque white right glove enters frame right with palm up and thumb toward the lower foreground.",
+      "source": "OpenAI built-in ImageGen",
+      "licenseContext": "Original illustration for the private fan project",
+      "review": "Artwork visually checked after generation and 1600x900 JPEG import",
+      "resolution": [
+        1600,
+        900
+      ],
+      "revision": 3
+    },
+    {
+      "id": "campus",
+      "title": "창가의 지도",
+      "file": "Assets/Game/Resources/Art/campus.jpg",
+      "usage": [
+        "ep003-table",
+        "ep003-boundary",
+        "ep004-notes"
+      ],
+      "prompt": "Two adult students, a sharp-eyed black-haired Korean man in charcoal and a chin-length blonde woman in a burgundy varsity jacket, looking at each other over a transit map in a sunny seminar room, Korean webtoon profiles.",
+      "source": "OpenAI built-in ImageGen",
+      "licenseContext": "Original illustration for the private fan project",
+      "review": "Generated illustration inspected; Unity Game View review pending",
+      "resolution": [
+        1600,
+        900
+      ]
+    },
+    {
+      "id": "stairs",
+      "title": "대학 외부",
+      "file": "Assets/Game/Resources/Art/stairs.jpg",
+      "usage": [
+        "ep001-campus",
+        "ep003-morning_check",
+        "ep003-stairs",
+        "ep004-meet",
+        "ep004-route",
+        "ep004-worker",
+        "ep004-resident",
+        "ep004-walk_back",
+        "ep004-handoff",
+        "ep005-order",
+        "ep006-invite",
+        "ep007-weekend",
+        "ep007-storefront",
+        "ep007-corner_goodbye",
+        "ep008-bench_note",
+        "ep008-week",
+        "ep009-before_meal",
+        "ep010-single_lunch",
+        "ep010-withrafael",
+        "ep011-snack",
+        "ep011-walk_before_split",
+        "ep011-clear_rights",
+        "ep013-bench",
+        "ep014-stairs_before_noon",
+        "ep014-space_to_speak",
+        "ep014-ask",
+        "ep014-decision",
+        "ep014-walk",
+        "ep016-leaflet_at_corner",
+        "ep016-plain",
+        "ep019-walk_home_not_run",
+        "ep024-wrong_aisle",
+        "ep024-market",
+        "ep026-shopping_detour",
+        "ep028-no_trace",
+        "ep038-reason",
+        "ep038-father",
+        "ep049-ticket_back",
+        "ep049-return"
+      ],
+      "prompt": "Brownstone college exterior in early autumn, warm daylight, faint elevated rail and anonymous students, understated Korean webtoon environment art without legible lettering.",
+      "source": "OpenAI built-in ImageGen",
+      "licenseContext": "Original illustration for the private fan project",
+      "review": "Generated illustration inspected; Unity Game View review pending",
+      "resolution": [
+        1600,
+        900
+      ]
+    },
+    {
+      "id": "train",
+      "title": "승강장 메시지",
+      "file": "Assets/Game/Resources/Art/train.jpg",
+      "usage": [
+        "ep003-message",
+        "ep007-passing_train",
+        "ep013-waiting_train",
+        "ep013-text",
+        "ep014-gwen_after",
+        "ep016-first_light"
+      ],
+      "prompt": "Adult chin-length blonde woman wearing her burgundy varsity jacket and reading her phone at an elevated New York station, soft autumn light and a silver train, restrained Korean webtoon linework.",
+      "source": "OpenAI built-in ImageGen",
+      "licenseContext": "Original illustration for the private fan project",
+      "review": "Generated illustration inspected; Unity Game View review pending",
+      "resolution": [
+        1600,
+        900
+      ]
+    },
+    {
+      "id": "cafe",
+      "title": "레코드 가게 카페",
+      "file": "Assets/Game/Resources/Art/cafe.jpg",
+      "usage": [
+        "ep004-lunch",
+        "ep006-late",
+        "ep007-records",
+        "ep007-refill",
+        "ep009-film_board",
+        "ep009-meal",
+        "ep009-left_table",
+        "ep014-not_an_errand",
+        "ep016-table_at_noon",
+        "ep016-ask",
+        "ep016-no_alibi",
+        "ep016-market_after_dark",
+        "ep021-opening_turn",
+        "ep021-date",
+        "ep025-table_booking",
+        "ep025-wait",
+        "ep025-serve_late",
+        "ep025-talk",
+        "ep027-ready_exit",
+        "ep027-coffee"
+      ],
+      "prompt": "버건디 재킷을 입은 금발 그웬과 차콜색 옷의 윤이 레코드와 커피를 사이에 두고 바라보는 가을 웹툰 패널.",
+      "revision": 1,
+      "source": "OpenAI built-in ImageGen",
+      "licenseContext": "Original illustration for the private fan project",
+      "review": "Offline art review and Unity import checked; actual player rendering pending",
+      "resolution": [
+        1600,
+        900
+      ]
+    },
+    {
+      "id": "music",
+      "title": "공연장",
+      "file": "Assets/Game/Resources/Art/music.jpg",
+      "usage": [
+        "ep003-rehearsal_check",
+        "ep006-soundcheck",
+        "ep006-admission",
+        "ep006-stage",
+        "ep006-packup",
+        "ep011-load_in",
+        "ep011-soundcheck_next",
+        "ep011-mj",
+        "ep011-next_take",
+        "ep013-bad_tempo",
+        "ep013-borrowed_break",
+        "ep013-beat",
+        "ep013-keep_the_tape",
+        "ep017-end_of_rehearsal",
+        "ep022-last_take",
+        "ep022-announce",
+        "ep022-good_chair",
+        "ep022-meet",
+        "ep022-show_stick"
+      ],
+      "prompt": "작은 공연장의 금발 드러머와 보컬, 텅스텐 램프, 관객과 드럼의 실루엣. 전 화면에 배경을 이어 인공 테두리를 제거.",
+      "revision": 2,
+      "source": "OpenAI built-in ImageGen",
+      "licenseContext": "Original illustration for the private fan project",
+      "review": "Offline art review and Unity import checked; actual player rendering pending",
+      "resolution": [
+        1600,
+        900
+      ]
+    },
+    {
+      "id": "roof",
+      "title": "철길 아래",
+      "file": "Assets/Game/Resources/Art/roof.jpg",
+      "usage": [
+        "ep004-length",
+        "ep005-boots",
+        "ep005-receipt_walk",
+        "ep006-outside_music",
+        "ep008-sound_wall",
+        "ep008-radio",
+        "ep009-guide_out",
+        "ep009-underpass",
+        "ep009-street_open",
+        "ep012-why_visit",
+        "ep012-separate",
+        "ep015-street_below",
+        "ep019-hurt",
+        "ep022-walk",
+        "ep023-loose_post",
+        "ep023-patrol",
+        "ep023-after_rescue",
+        "ep025-slope",
+        "ep025-patrol",
+        "ep027-outside_line",
+        "ep027-warning",
+        "ep028-second_number",
+        "ep029-choice",
+        "ep030-clear_doorway",
+        "ep030-ruin",
+        "ep030-two_photos",
+        "ep031-rain_change",
+        "ep031-call",
+        "ep032-headcount",
+        "ep032-citizens",
+        "ep032-split_access",
+        "ep032-reach_light",
+        "ep033-footing",
+        "ep033-losefoot",
+        "ep033-last_anchor",
+        "ep033-safe_side",
+        "ep033-move",
+        "ep033-rescue",
+        "ep039-stalled_freight",
+        "ep039-call",
+        "ep039-mark_on_glass",
+        "ep039-trace",
+        "ep041-caught_steps",
+        "ep041-count",
+        "ep044-loading_dock",
+        "ep044-stairs"
+      ],
+      "prompt": "비 내린 브루클린 고가 철교 아래와 경광등. 회색과 짙은 보라. 프레임과 하단 오버레이를 제거한 전 화면 배경.",
+      "revision": 2,
+      "source": "OpenAI built-in ImageGen",
+      "licenseContext": "Original illustration for the private fan project",
+      "review": "Offline art review and Unity import checked; actual player rendering pending",
+      "resolution": [
+        1600,
+        900
+      ]
+    },
+    {
+      "id": "confess",
+      "title": "식탁 위 두 사람",
+      "file": "Assets/Game/Resources/Art/confess.jpg",
+      "usage": [
+        "ep020-confess"
+      ],
+      "prompt": "저녁 식탁 양편에서 손을 잡고 있는 성인 윤과 그웬. 은은한 호박색, 눈과 손이 보이는 가로 구도.",
+      "revision": 1,
+      "source": "OpenAI built-in ImageGen",
+      "licenseContext": "Original illustration for the private fan project",
+      "review": "Offline art review and Unity import checked; actual player rendering pending",
+      "resolution": [
+        1600,
+        900
+      ]
+    },
+    {
+      "id": "revenant",
+      "title": "오래된 동료",
+      "file": "Assets/Game/Resources/Art/revenant.jpg",
+      "usage": [
+        "ep028-ring",
+        "ep029-landing",
+        "ep030-open_bay",
+        "ep030-meet",
+        "ep032-charge",
+        "ep032-realize"
+      ],
+      "prompt": "버려진 차고에서 팔이 주황색으로 빛나는 레버넌트와 먼 쪽의 검은 머리 윤을 서로 마주보는 실루엣으로 구성.",
+      "revision": 1,
+      "source": "OpenAI built-in ImageGen",
+      "licenseContext": "Original illustration for the private fan project",
+      "review": "Offline art review and Unity import checked; actual player rendering pending",
+      "resolution": [
+        1600,
+        900
+      ]
+    },
+    {
+      "id": "sacrifice",
+      "title": "팬텀",
+      "file": "Assets/Game/Resources/Art/sacrifice.jpg",
+      "usage": [
+        "ep033-intercept"
+      ],
+      "prompt": "Full-bleed Korean webtoon rescue in a rainy Brooklyn railway depot. Yun blinks into the path of a distant orange shock wave in violet light while fully covered Spider-Woman lies on her side behind him.",
+      "revision": 3,
+      "source": "OpenAI built-in ImageGen",
+      "licenseContext": "Original illustration for the private fan project",
+      "review": "Visually checked the exported illustration for staging, full mask coverage, and absence of text and borders.",
+      "resolution": [
+        1600,
+        900
+      ]
+    },
+    {
+      "id": "hospital",
+      "title": "기다리는 의자",
+      "file": "Assets/Game/Resources/Art/hospital.jpg",
+      "usage": [
+        "ep034-intake",
+        "ep034-waiting",
+        "ep034-splint_room",
+        "ep034-george",
+        "ep034-post_op",
+        "ep034-vigil",
+        "ep035-how_far",
+        "ep035-back",
+        "ep036-bedside_alarm",
+        "ep036-wake",
+        "ep036-after_monitor",
+        "ep036-medical",
+        "ep036-can_i_ask",
+        "ep036-questions",
+        "ep037-daylight_notes",
+        "ep037-rooms",
+        "ep037-redeem_nothing",
+        "ep037-after_the_address",
+        "ep037-now",
+        "ep038-slow_out",
+        "ep038-listed_keys",
+        "ep038-promise",
+        "ep040-call",
+        "ep040-better_route"
+      ],
+      "prompt": "옅은 보라빛이 드는 새벽 병실에 앉은 금발 그웬의 옆모습과 누운 윤, 컵과 접힌 코트.",
+      "revision": 1,
+      "source": "OpenAI built-in ImageGen",
+      "licenseContext": "Original illustration for the private fan project",
+      "review": "Offline art review and Unity import checked; actual player rendering pending",
+      "resolution": [
+        1600,
+        900
+      ]
+    },
+    {
+      "id": "lab",
+      "title": "보라색 링",
+      "file": "Assets/Game/Resources/Art/lab.jpg",
+      "usage": [
+        "ep019-exit_in_memory",
+        "ep028-cane",
+        "ep044-turn_at_the_board",
+        "ep044-copy",
+        "ep044-trapped_voice",
+        "ep044-separate",
+        "ep045-exit_lamp",
+        "ep045-murdoch",
+        "ep045-original_box",
+        "ep045-cane",
+        "ep045-hand_off",
+        "ep045-seal",
+        "ep046-one_unaccounted",
+        "ep046-count",
+        "ep046-layout_fold",
+        "ep046-inside",
+        "ep046-listen_for_line",
+        "ep046-outside",
+        "ep047-photo_angle",
+        "ep047-coordinates",
+        "ep047-between_frames",
+        "ep047-find",
+        "ep047-return_pull",
+        "ep047-homeward"
+      ],
+      "prompt": "비어 있는 연구 시설과 보라색 기하학 링, 화물 출입구, 절제된 공간 왜곡.",
+      "revision": 1,
+      "source": "OpenAI built-in ImageGen",
+      "licenseContext": "Original illustration for the private fan project",
+      "review": "Offline art review and Unity import checked; actual player rendering pending",
+      "resolution": [
+        1600,
+        900
+      ]
+    },
+    {
+      "id": "symbiote",
+      "title": "검은 거미",
+      "file": "Assets/Game/Resources/Art/symbiote.jpg",
+      "usage": [
+        "ep039-stand_back",
+        "ep039-voice",
+        "ep040-cut_engine",
+        "ep040-stop",
+        "ep040-voice_note",
+        "ep041-message_location",
+        "ep041-shout",
+        "ep041-stationary",
+        "ep041-release"
+      ],
+      "prompt": "베란다 장면과 동일한 흰색 일체형 후드, 분홍 거미줄 무늬, 흰 마스크와 기본 슈트에 검은 막이 번지는 옥상 컷.",
+      "revision": 1,
+      "source": "OpenAI built-in ImageGen",
+      "licenseContext": "Original illustration for the private fan project",
+      "review": "Offline art review and Unity import checked; actual player rendering pending",
+      "resolution": [
+        1600,
+        900
+      ]
+    },
+    {
+      "id": "homeend",
+      "title": "두 그릇의 저녁",
+      "file": "Assets/Game/Resources/Art/homeend.jpg",
+      "usage": [
+        "ep050-dinner",
+        "ep050-last"
+      ],
+      "prompt": "몇 해 뒤 윤과 그웬이 브루클린 아파트 베란다 창가에서 저녁을 먹는 편안한 웹툰 장면.",
+      "revision": 1,
+      "source": "OpenAI built-in ImageGen",
+      "licenseContext": "Original illustration for the private fan project",
+      "review": "Offline art review and Unity import checked; actual player rendering pending",
+      "resolution": [
+        1600,
+        900
+      ]
+    },
+    {
+      "id": "park_evening",
+      "file": "Assets/Game/Resources/Art/park_evening.jpg",
+      "title": "브루클린 공원과 철길",
+      "prompt": "Empty autumn park, New York brownstones and a railway above a paved walk. Warm evening sun and benches.",
+      "revision": 1,
+      "source": "OpenAI built-in ImageGen",
+      "licenseContext": "Original illustration for the private fan project",
+      "review": "Artwork visually checked after generation and 1600x900 JPEG import",
+      "resolution": [
+        1600,
+        900
+      ],
+      "usage": [
+        "ep007-slow_walk",
+        "ep007-park",
+        "ep018-walk_without_a_map",
+        "ep018-photo_in_case",
+        "ep018-stick_one_pair",
+        "ep018-peter",
+        "ep018-back_of_photo",
+        "ep018-what_the_photo_lacks",
+        "ep018-loss",
+        "ep018-incoming_call",
+        "ep018-open_passenger_door",
+        "ep018-front",
+        "ep019-walk_left",
+        "ep019-marked_margin",
+        "ep019-saturday_question",
+        "ep021-late_train",
+        "ep021-kiss",
+        "ep021-separate_ways",
+        "ep021-witness",
+        "ep038-quiet_bench"
+      ]
+    },
+    {
+      "id": "police_room",
+      "file": "Assets/Game/Resources/Art/police_room.jpg",
+      "title": "뉴욕 경찰서 상담실",
+      "prompt": "Empty neutral consultation room with three seats, a table, a folder, and a frosted internal window.",
+      "revision": 1,
+      "source": "OpenAI built-in ImageGen",
+      "licenseContext": "Original illustration for the private fan project",
+      "review": "Artwork visually checked after generation and 1600x900 JPEG import",
+      "resolution": [
+        1600,
+        900
+      ],
+      "usage": [
+        "ep035-waiting_permission",
+        "ep035-archive",
+        "ep035-printed_bench",
+        "ep043-doors_on_paper",
+        "ep043-schematic",
+        "ep043-falling_path",
+        "ep043-limit",
+        "ep048-waiting_with_counsel",
+        "ep048-desk",
+        "ep048-one_permission"
+      ]
+    },
+    {
+      "id": "room_night",
+      "file": "Assets/Game/Resources/Art/room_night.jpg",
+      "title": "윤의 아파트 · 밤",
+      "prompt": "Empty nighttime kitchen and lounge of the same apartment; basil on the sill and a warm floor lamp.",
+      "revision": 1,
+      "source": "OpenAI built-in ImageGen",
+      "licenseContext": "Original illustration for the private fan project",
+      "review": "Artwork visually checked after generation and 1600x900 JPEG import",
+      "resolution": [
+        1600,
+        900
+      ],
+      "usage": [
+        "ep002-after",
+        "ep003-next",
+        "ep005-bye",
+        "ep008-revision",
+        "ep009-draft_before_text",
+        "ep009-delete",
+        "ep010-team_inbox",
+        "ep011-material",
+        "ep012-inside_wait",
+        "ep014-returned_keychain",
+        "ep014-alone",
+        "ep015-threshold",
+        "ep016-soup_list",
+        "ep016-offer",
+        "ep017-no_back_window",
+        "ep017-door",
+        "ep017-where_to_leave_it",
+        "ep017-bowls_and_door",
+        "ep017-dinner",
+        "ep017-album_sides",
+        "ep017-brushes",
+        "ep017-pick_a_movie",
+        "ep017-film",
+        "ep020-hold_the_ladle",
+        "ep020-kitchen_clock",
+        "ep020-after",
+        "ep023-pause",
+        "ep024-movie_choice",
+        "ep024-space",
+        "ep026-surprise",
+        "ep026-count_candles",
+        "ep026-wish",
+        "ep026-rinse_plates",
+        "ep043-paired_radio",
+        "ep050-tomorrow_list",
+        "ep050-hands_dry",
+        "ep050-wash_later"
+      ]
+    },
+    {
+      "id": "classroom",
+      "file": "Assets/Game/Resources/Art/classroom.jpg",
+      "title": "대학 세미나실",
+      "prompt": "Empty New York university seminar room in soft daylight, blank chalkboard and wood desks.",
+      "revision": 1,
+      "source": "OpenAI built-in ImageGen",
+      "licenseContext": "Original illustration for the private fan project",
+      "review": "Artwork visually checked after generation and 1600x900 JPEG import",
+      "resolution": [
+        1600,
+        900
+      ],
+      "usage": [
+        "ep001-assignment",
+        "ep003-class",
+        "ep005-return_ruler",
+        "ep006-friday",
+        "ep008-credit",
+        "ep008-paper",
+        "ep008-access_desk",
+        "ep008-printed_map",
+        "ep010-miss",
+        "ep010-wrong_annotation",
+        "ep010-ordinary_offer",
+        "ep010-open_minutes",
+        "ep010-clear",
+        "ep011-printed",
+        "ep011-speaker_test",
+        "ep012-last_route",
+        "ep012-presentation",
+        "ep012-day",
+        "ep013-classwork",
+        "ep013-shared_screen",
+        "ep013-not_about_nora",
+        "ep014-broken_copy",
+        "ep016-first_reply",
+        "ep031-route_plan"
+      ]
+    }
+  ],
+  "audio": [
+    {
+      "id": "city",
+      "file": "Assets/Game/Resources/Audio/city.wav",
+      "source": "tools/synthesize_audio.py",
+      "review": "Asset import verified; in-game audio review pending"
+    },
+    {
+      "id": "past",
+      "file": "Assets/Game/Resources/Audio/past.wav",
+      "source": "tools/synthesize_audio.py",
+      "review": "Asset import verified; in-game audio review pending"
+    },
+    {
+      "id": "day",
+      "file": "Assets/Game/Resources/Audio/day.wav",
+      "source": "tools/synthesize_audio.py",
+      "review": "Asset import verified; in-game audio review pending"
+    },
+    {
+      "id": "rain",
+      "file": "Assets/Game/Resources/Audio/rain.wav",
+      "source": "tools/synthesize_audio.py",
+      "review": "Asset import verified; in-game audio review pending"
+    },
+    {
+      "id": "impact",
+      "file": "Assets/Game/Resources/Audio/impact.wav",
+      "source": "tools/synthesize_audio.py",
+      "review": "Asset import verified; in-game audio review pending"
+    }
+  ],
+  "type": {
+    "source": "https://github.com/notofonts/noto-cjk/tree/main/Sans/SubsetOTF/KR",
+    "file": "Assets/Game/Resources/Type/NotoSansKR-Regular.otf",
+    "license": "SIL OFL 1.1",
+    "licenseFile": "Assets/Game/Resources/Type/NotoSans-OFL.txt"
+  },
+  "costumeReference": "https://www.marvel.com/articles/podcasts/complete-ghost-spider-gwen-stacy-episode-transcript-women-of-marvel-podcast",
+  "sprites": [
+    {
+      "id": "gwen_down",
+      "title": "그웬 · 낙하 직후",
+      "file": "Assets/Game/Resources/Sprites/gwen_down.png",
+      "usage": [
+        "ep002-fall",
+        "ep033-footing",
+        "ep033-losefoot",
+        "ep033-last_anchor"
+      ],
+      "prompt": "후드가 어깨에 붙은 흑백 슈트를 입고 무릎과 한 손을 바닥에 짚은 자세. 흰 전면 마스크와 분홍 거미줄 안감, 청록색 밑창. 투명 배경.",
+      "revision": 2,
+      "source": "OpenAI built-in ImageGen",
+      "licenseContext": "Original illustration for the private fan project",
+      "review": "Offline art review and Unity import checked; actual player rendering pending",
+      "resolution": [
+        1325,
+        894
+      ]
+    },
+    {
+      "id": "gwen_seated",
+      "title": "그웬 · 처치 중",
+      "file": "Assets/Game/Resources/Sprites/gwen_seated.png",
+      "usage": [
+        "ep002-distance",
+        "ep002-dry",
+        "ep002-quiet",
+        "ep012-rain_talk",
+        "ep012-leave_clear",
+        "ep015-clear_space",
+        "ep015-return",
+        "ep015-support",
+        "ep015-name",
+        "ep015-what_he_saw",
+        "ep015-privacy",
+        "ep015-under_same_roof"
+      ],
+      "prompt": "동일한 후드 일체형 슈트를 입고 무릎을 세워 앉아 손을 내미는 자세. 투명 배경.",
+      "revision": 2,
+      "source": "OpenAI built-in ImageGen",
+      "licenseContext": "Original illustration for the private fan project",
+      "review": "Offline art review and Unity import checked; actual player rendering pending",
+      "resolution": [
+        1021,
+        1294
+      ]
+    },
+    {
+      "id": "gwen_standing",
+      "title": "그웬 · 재방문",
+      "file": "Assets/Game/Resources/Sprites/gwen_standing.png",
+      "usage": [
+        "ep002-departure",
+        "ep005-boots",
+        "ep005-pizza",
+        "ep005-settle",
+        "ep005-slice",
+        "ep008-sound_wall",
+        "ep009-underpass",
+        "ep012-separate",
+        "ep012-night",
+        "ep015-street_below",
+        "ep023-loose_post",
+        "ep023-patrol",
+        "ep023-after_rescue",
+        "ep023-balcony",
+        "ep023-two_hooks",
+        "ep025-slope",
+        "ep030-clear_doorway",
+        "ep031-rain_change",
+        "ep031-call",
+        "ep032-headcount",
+        "ep032-citizens",
+        "ep039-stalled_freight",
+        "ep039-call",
+        "ep044-loading_dock",
+        "ep044-stairs"
+      ],
+      "prompt": "동일한 후드 일체형 슈트로 편하게 서서 한 손을 허리에 둔 자세. 투명 배경.",
+      "revision": 2,
+      "source": "OpenAI built-in ImageGen",
+      "licenseContext": "Original illustration for the private fan project",
+      "review": "Offline art review and Unity import checked; actual player rendering pending",
+      "resolution": [
+        503,
+        1400
+      ]
+    }
+  ]
+}
