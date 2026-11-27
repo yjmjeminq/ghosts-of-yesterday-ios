@@ -45,7 +45,7 @@ jobs:
           set -- "$ARCHIVE"/Products/Applications/*.app
           [[ "$#" -eq 1 && -d "$1" ]]
           executable="$(/usr/libexec/PlistBuddy -c 'Print :CFBundleExecutable' "$1/Info.plist")"
-          lipo -verify_arch arm64 "$1/$executable"
+          xcrun lipo "$1/$executable" -verify_arch arm64
           mkdir -p "$RUNNER_TEMP/Payload"
           ditto "$1" "$RUNNER_TEMP/Payload/${1##*/}"
           cd "$RUNNER_TEMP"
